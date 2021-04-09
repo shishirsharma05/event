@@ -1,0 +1,75 @@
+ <!-- Required meta tags -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- font link -->
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Event</title>
+  </head>
+ <body>
+    
+
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12">
+        <!-- event data -->
+          <h5>Event Data</h5>
+          <button class="btn btn-warning"> 0 </button>
+          <button class="btn btn-warning"> 1 </button>
+          <button class="btn btn-warning"> 2 </button>
+          <button class="btn btn-warning"> 3 </button>
+          <button class="btn btn-warning"> 4 </button>
+           
+          <div id="log"></div>
+          <br> 
+
+        <!-- Default Prevented event -->
+          <h5>Default Prevented event</h5>
+          <a href="" class="btn btn-danger">click me</a>
+          <br> <br>
+
+      <!-- Is immediate Propagation Stopped -->
+          <h5>Is immediate Propagation Stopped</h5>
+          <button class="btn btn-primary" id="i-button">click me</button>
+          <div id="stop-log"></div>
+          <br> <br>
+
+      <!-- Event Meta Key -->
+          <h5>Event Meta Key</h5>
+          <button value="Test" name="Test" class="btn btn-danger" id="checkMetaKey">Click me!</button>
+          <div id="display"></div>
+
+          <br> <br>
+
+
+      <!-- event namespace -->
+          <h5>Event Namespace</h5>
+          <button class="btn btn-primary" id="n-button">Namespace</button>
+          <p></p>
+          <br> <br>
+
+      <!-- Stop Immediate Propagation -->
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus qui ullam veniam provident repellat id voluptatibus facere quo consequuntur sequi temporibus ab deserunt, cupiditate rem reiciendis assumenda sunt atque optio. Magni, maxime ad officia voluptate, labore porro eveniet, aspernatur cupiditate eaque minus quaerat commodi tempore, dolores saepe beatae quasi aut.</p>
+          <div class="color-change">Click the text change the background color</div>
+
+
+        </div>  
+     </div>
+   </div>
+    <!-- js link -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
